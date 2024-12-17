@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple CMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Simple Content Management System</h1>
+        </header>
+
+        <!-- Content Form -->
+        <section class="content-form">
+            <h2>Add Content</h2>
+            <form id="contentForm">
+                <label for="contentTitle">Title:</label>
+                <input type="text" id="contentTitle" placeholder="Enter title" required>
+
+                <label for="contentBody">Content:</label>
+                <textarea id="contentBody" placeholder="Enter content" rows="4" required></textarea>
+
+                <button type="button" id="addBtn">Add Content</button>
+            </form>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
